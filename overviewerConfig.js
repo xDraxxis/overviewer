@@ -23,11 +23,13 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "XMC Season 3"
+        "Overworld",
+        "Nether",
+        "End"
     ],
     "map": {
         "debug": true,
-        "cacheTag": "1567237585",
+        "cacheTag": "1567262477",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +43,114 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "August 31st 2019",
+            "name": "Day - 31/8/19",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "overworld_south",
+            "path": "overworld_day",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "XMC Season 3",
+            "world": "Overworld",
+            "last_rendertime": 1567230257,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -61,
+                96,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -61,
+                96,
+                -128
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Night - 31/8/19",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "overworld_night",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Overworld",
+            "last_rendertime": 1567230257,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -61,
+                96,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": [
+                -61,
+                96,
+                -128
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "The Nether",
+            "zoomLevels": 5,
+            "defaultZoom": 1,
+            "maxZoom": 5,
+            "path": "nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Nether",
+            "last_rendertime": 1567228734,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -61,
+                96,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "The End",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "end",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "End",
+            "last_rendertime": 1567228092,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -61,
+                96,
+                -128
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "Large Day - 31/8/19",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "overworld_large_day",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Overworld",
             "last_rendertime": 1567230257,
             "imgextension": "png",
             "isOverlay": false,
